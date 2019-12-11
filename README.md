@@ -11,3 +11,6 @@ Steps to reproduce the problem:
 1. The application does not boot
 
 Changing the liquibase version to `3.8.0` works.
+
+After excluding the `jakarta.xml.bind-api:jakarta.xml.bind` from the `spring-boot-starter-test`
+the `DemoLiquibaseApplicationTests` are also failing.
